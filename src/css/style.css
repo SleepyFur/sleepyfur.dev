@@ -1,0 +1,34 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    scrollbar-width: 1px;
+    display: none;
+    }
+
+*{
+    font-family: 'Poppins', sans-serif;
+    }
+
+/* Page class */
+html {
+    background-color: #1e1e1e;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+/* Navbar class */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px 5%;
+    background-color: #24252a;
+    border: 5px solid #18181c;
+    border-radius: 20px;
+    opacity:0.8
+    }
+     
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
